@@ -3,6 +3,8 @@ E-commerce website back-end using Sequelize and provided front-end
 
 Screencastify walkthru link: chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/42b65111-52ec-4926-y677-3b30278a5a74?autostopped
 
+Google drive Screencastify video: https://drive.google.com/file/d/17MPURpIz9pdomePNxc8JVlXOOuAU97uA/view
+
 GitHub Repository link: https://github.com/bradkuhne/BK-Retail
 
 ## Description
