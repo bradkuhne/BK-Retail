@@ -7,8 +7,8 @@ router.get('/', (req, res) => {
   Category.findAll({
     include: [Product]
   })
-  .then(data => res.json(data))
-  .catch(err => res.status(500).json(err));
+    .then(data => res.json(data))
+    .catch(err => res.status(500).json(err));
 });
 
 router.get('/:id', (req, res) => {
@@ -18,13 +18,18 @@ router.get('/:id', (req, res) => {
     },
     include: [Product],
   })
-  .then(console.log ("This is the id that was pass: " + req.params.id))
-  .then(data => res.json(data))
-  .catch(err => res.status(500).json(err));
+    .then(console.log("This is the id that was pass: " + req.params.id))
+    .then(data => res.json(data))
+    .catch(err => res.status(500).json(err));
 });
 
 router.post('/', (req, res) => {
   // create a new category
+  Category.create({
+    category_name: req.body.category_name,
+  })
+    .then(data => res.json(data))
+    .catch(err => res.status(500).json(err));
 });
 
 router.put('/:id', (req, res) => {
@@ -33,9 +38,9 @@ router.put('/:id', (req, res) => {
       id: req.params.id
     }
   })
-  // .then (console.log("This is the data: " + data))
-  .then(data => res.json(data))
-  .catch(err => res.status(500).json(err));
+    // .then (console.log("This is the data: " + data))
+    .then(data => res.json(data))
+    .catch(err => res.status(500).json(err));
 });
 
 router.delete('/:id', (req, res) => {
