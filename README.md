@@ -1,8 +1,9 @@
 # BK-Retail
 E-commerce website back-end using Sequelize and provided front-end
 
-Screencastify walkthru link: 
-GitHub Repository link: https://github.com/bradkuhne/BK-retail
+Screencastify walkthru link: chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/42b65111-52ec-4926-y677-3b30278a5a74?autostopped
+
+GitHub Repository link: https://github.com/bradkuhne/BK-Retail
 
 ## Description
   
